@@ -1,0 +1,28 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: rgb(255, 255, 255);
+    --light-gray: rgb(214, 226, 240);
+    --grayish-blue: rgb(123, 135, 157);
+    --dark-blue: rgb(31, 50, 81);
+}
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+#root {
+    min-width: 1440px;
+    margin: 0 auto;
+    isolation: isolate;
+}
