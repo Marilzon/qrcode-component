@@ -12,7 +12,7 @@ Users should be able to:
 ### Links
 - Challenger URL: [https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H](hhttps://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 - Solution URL: [https://github.com/Marilzon/qrcode-component](https://github.com/Marilzon/qrcode-component)
-- Live Site URL: [https://marilzon.github.io/product-preview-card/](https://marilzon.github.io/product-preview-card/)
+- Live Site URL: [https://marilzon.github.io/qrcode-component/](https://marilzon.github.io/qrcode-component/)
 
 ## My Process
 
