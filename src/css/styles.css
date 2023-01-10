@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: var(--grayish-blue);
 }
 
 h1 {
@@ -22,7 +23,55 @@ p {
 }
 
 #root {
-    min-width: 1440px;
+    width: 100%;
+    max-width: 1440px;
+
+    padding: 2rem;
     margin: 0 auto;
     isolation: isolate;
+}
+
+.qrcode__card {
+    max-width: 18.75rem;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 1.2rem;
+    margin: 0 auto;
+}
+
+.qrcode__image {
+    border-radius: 1.2rem;
+}
+
+.qrcode__title {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.qrcode__paragraph {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 0.9375rem;
+    color: var(--grayish-blue);
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    width: fit-content;
+}
+
+.attribution__paragraph {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution__link {
+    color: rgb(62, 82, 163);
+    text-decoration: none;
 }
